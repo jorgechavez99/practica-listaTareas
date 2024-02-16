@@ -1,0 +1,80 @@
+:root{
+    --colorGreen:green;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.bg-container{
+    background-color: var(--colorGreen);
+    color: white;
+    text-align: center;
+}
+
+header>p{
+    font-size: 2rem;   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+
+
+li{
+    border: 1px solid black;
+    padding: 5px; 
+    list-style: none;
+}
+
+main{
+    margin:auto 10% 5%;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bt-eliminar{
+    background-color: rgb(184, 21, 21);
+    color: white;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.bt-pendiente{
+    background-color: rgb(8, 160, 61);
+    color: white;
+    padding: 3px;
+    margin-left: 10%;
+    border-radius: 4px;
+}
+
+.bt-aniadir{
+    background-color: rgb(35, 107, 60);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+h1{
+   text-align: center;
+   margin: 20px;
+}
+
+.pendiente{
+    background-color: rgb(201, 48, 48);
+}
